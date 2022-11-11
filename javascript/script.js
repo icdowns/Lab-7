@@ -1,9 +1,11 @@
 function init(){
 //add your javascrip between these two lines of code
+  var input = document.getElementById('entryinput')
+  var clickButton = document.getElementById('entrybutton')
+  var output = document.getElementById('textoutput')
+  
   function AlertMe(){
-	  var input = document.getElementById('entryinput')
-	  var clickButton = document.getElementById('entrybutton')
-	  var output = document.getElementById('textoutput')
+	  
 	 
 	  alert('Immanuel Downs:' + input.value);
 	  output.innerHTML = input.value;
@@ -12,7 +14,7 @@ function init(){
   
   pressButton.addEventListener('click', Alertme);
 
-
+}
 
 
 
