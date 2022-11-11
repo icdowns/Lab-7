@@ -12,7 +12,7 @@ function init(){
 	  
   }
   
-  pressButton.addEventListener('click', Alertme);
+  pressButton.addEventListener('click', AlertMe);
 
 }
 
